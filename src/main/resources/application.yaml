@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/certification
+    username: postgres
+    password: admin
+
+  flyway:
+    clean-on-validation-error: true
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
