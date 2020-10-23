@@ -1,4 +1,4 @@
-
+-- password = user
 INSERT INTO users (login, password)
 VALUES ('user', '$2y$08$MWChLAB5pSj//YsedRq/beD1lqeJrOPNDsl0MlIunQvGvqrMxDAtq');
 
