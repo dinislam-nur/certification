@@ -16,4 +16,8 @@ public class StudentService {
     public List<Map<String, Object>> getAllStudents() {
         return studentsRepository.findAll();
     }
+
+    public Map<String, Object> getStudentById(Long id) {
+        return studentsRepository.findById(id);
+    }
 }
